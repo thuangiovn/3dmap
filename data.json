@@ -1,5 +1,5 @@
 {
-	"AppName": "Bản đồ 3D",
+	"AppName": "GeoViet",
 	"layers": [
 		{
 			"id": "LongTruong",
@@ -10,12 +10,6 @@
 		{
 			"id": "LongTruong2",
 			"tenhienthi": "Ảnh 3D khu vực Long Trường 2",
-			"link": "http://localhost:5000/LongTruong/tileset.json",
-			"isshow": false
-		},
-		{
-			"id": "LongTruong3",
-			"tenhienthi": "Ảnh 3D khu vực Long Trường 3",
 			"link": "http://localhost:5000/LongTruong/tileset.json",
 			"isshow": false
 		}
