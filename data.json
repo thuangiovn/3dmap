@@ -4,13 +4,13 @@
 		{
 			"id": "LongTruong",
 			"tenhienthi": "Ảnh 3D khu vực Long Trường",
-			"link": "http://localhost:5000/LongTruong/tileset.json",
+			"link": "https://thuangiovn.github.io/3dmap/LongTruong/tileset.json",
 			"isshow": false
 		},
 		{
 			"id": "LongTruong2",
 			"tenhienthi": "Ảnh 3D khu vực Long Trường 2",
-			"link": "http://localhost:5000/LongTruong/tileset.json",
+			"link": "https://thuangiovn.github.io/3dmap/LongTruong/tileset.json",
 			"isshow": false
 		}
 	]
