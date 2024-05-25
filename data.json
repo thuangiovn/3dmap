@@ -21,7 +21,7 @@
 			"id": "PhanThiet_geojson",
 			"type": "geojson",
 			"tenhienthi": "Vector khu vực Phan Thiết",
-			"link": "http://localhost:3000/3dmap/sohoa.geojson",
+			"link": "https://thuangiovn.github.io/3dmap/sohoa.geojson",
 			"bbox": [108.297397,10.943399,108.300968,10.946052],
 			"isshow": false
 			
