@@ -1,16 +1,46 @@
 {
 	"AppName": "Bản đồ 3D",
+	"baseLayer":{
+		"id": "bandonen_iot",
+		"tenhienthi": "Bản đồ nền",
+		"link": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+		"minimumLevel": 0,
+		"maximumLevel":18
+	},
 	"layers": [
 		{
 			"id": "LongTruong",
+			"type": "3d",
 			"tenhienthi": "Ảnh 3D khu vực Long Trường",
 			"link": "https://thuangiovn.github.io/3dmap/LongTruong/tileset.json",
+			"bbox": [106.85924,10.78162,106.86280,10.78533],
 			"isshow": false
+			
 		},
 		{
-			"id": "LongTruong2",
-			"tenhienthi": "Ảnh 3D khu vực Long Trường 2",
-			"link": "https://thuangiovn.github.io/3dmap/LongTruong/tileset.json",
+			"id": "PhanThiet_geojson",
+			"type": "geojson",
+			"tenhienthi": "Vector khu vực Phan Thiết",
+			"link": "http://localhost:3000/3dmap/sohoa.geojson",
+			"bbox": [108.297397,10.943399,108.300968,10.946052],
+			"isshow": false
+			
+		},
+		{
+			"id": "PhanThiet",
+			"type": "3d",
+			"tenhienthi": "Ảnh 3D khu vực Phan Thiết",
+			"link": "http://localhost:5000/PhanThiet/Cesium.json",
+			"isshow": false,
+			"be_trans": {
+				"offset": 10
+			}
+		},
+		{
+			"id": "PhanThietPC",
+			"type": "3d",
+			"tenhienthi": "Ảnh PointCloud khu vực Phan Thiết",
+			"link": "http://localhost:5000/PhanThiet_PC/tileset.json",
 			"isshow": false
 		}
 	]
