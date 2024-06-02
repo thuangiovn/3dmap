@@ -21,10 +21,50 @@
 			"id": "PhanThiet_geojson",
 			"type": "geojson",
 			"tenhienthi": "Vector khu vực Phan Thiết",
-			"link": "https://thuangiovn.github.io/3dmap/sohoa.geojson",
+			"link": "http://localhost:3000/3dmap/sohoa.geojson",
 			"bbox": [108.297397,10.943399,108.300968,10.946052],
-			"isshow": false
-			
+			"isshow": false			
+		},
+		
+		{
+			"id": "noinao",
+			"type": "3d",
+			"tenhienthi": "Ảnh 3D khu vực mẫu",
+			"link": "http://localhost:5000/tuongdai_dongxoai/tileset.json",
+			"isshow": false,
+			"be_trans": {
+				"offset": 20
+			}
+		},
+		{
+			"id": "BinhPhuoc - Ca 1",
+			"type": "3d",
+			"tenhienthi": "Ảnh 3D khu vực BinhPhuoc - CA 1",
+			"link": "http://localhost:5000/BinhPhuoc_CA1/tileset.json",
+			"isshow": false,
+			"be_trans": {
+				"offset": 10
+			}
+		},
+		{
+			"id": "BinhPhuoc - Ca 3",
+			"type": "3d",
+			"tenhienthi": "Ảnh 3D khu vực BinhPhuoc - CA 3",
+			"link": "http://localhost:5000/BinhPhuoc/tileset.json",
+			"isshow": false,
+			"be_trans": {
+				"offset": 10
+			}
+		},
+		{
+			"id": "BinhPhuoc_CA2",
+			"type": "3d",
+			"tenhienthi": "Ảnh 3D khu vực BinhPhuoc - CA 2",
+			"link": "http://localhost:5000/BinhPhuoc_CA2/tileset.json",
+			"isshow": false,
+			"be_trans": {
+				"offset": 10
+			}
 		},
 		{
 			"id": "PhanThiet",
